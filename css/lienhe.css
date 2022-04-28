@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menuchinh {
+  background-image: url(../img/slider1.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 100px;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.menuchinh .container {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.menuchinh .container .navbar {
+  margin: auto;
+  width: 70%;
+}
+
+.menuchinh .container .navbar img {
+  width: 7%;
+}
+
+.menuchinh .container .navbar .navbar-nav a {
+  color: white;
+}
+
+.gioi-thieu {
+  background: rgba(0, 0, 0, 0.4);
+  width: 40%;
+  margin: auto;
+  margin-top: 150px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: white;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+.noidung {
+  width: 100%;
+  background: #eee;
+  margin: 30px auto;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.lien-he .container .row .col-sm-6 h4 {
+  color: #07824c;
+}
+
+.lien-he .container .row .col-sm-6 ul {
+  margin-left: 20px;
+}
+
+.ban-do .container .row .col-sm-12 iframe {
+  width: 100%;
+  margin-top: 30px;
+}
+
+footer {
+  width: 100%;
+  background-color: #3f454d;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  color: white;
+}
+
+footer .container .row .col-sm-3 .item iframe {
+  max-width: 100%;
+  height: 200px;
+}
+
+.ban-quyen {
+  background-color: #5b5b5b;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: white;
+}
+
+@media only screen and (max-width: 700px) {
+  .menuchinh {
+    background-image: url(../img/slider1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 100px;
+    background-position: center;
+    background-size: cover;
+    color: white;
+  }
+  .menuchinh .container {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 0 !important;
+    padding: 10px;
+  }
+  .menuchinh .container .navbar {
+    margin: auto;
+    width: 70%;
+  }
+  .menuchinh .container .navbar img {
+    width: 20%;
+  }
+  .menuchinh .container .navbar .navbar-nav a {
+    color: white;
+  }
+  .gioi-thieu {
+    background: rgba(0, 0, 0, 0.4);
+    width: 70%;
+    margin: auto;
+    margin-top: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    color: white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+  }
+}
+/*# sourceMappingURL=lienhe.css.map */

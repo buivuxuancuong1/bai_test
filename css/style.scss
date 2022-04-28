@@ -1,0 +1,440 @@
+
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  body{
+      height: 2000px;
+    header{
+        position: relative;
+        #myBtn {
+            display: none; 
+            position: fixed; 
+            top: 0px;
+            z-index: 99;
+            border: none; 
+            outline: none; 
+            background-color:rgba(255,255,255,0.5); 
+            cursor: pointer; 
+            font-size: 18px;
+            width: 100%;
+            transition: 0.5s;
+
+            .navbar{
+                width: 100%;
+                margin: 0;
+                padding: 15px 0;
+
+                img{
+                    width: 5%;
+                    margin-right: 30px;
+                }
+
+            }
+          }
+
+          .slide{
+            width: 100%;
+            margin: auto;
+
+            .menu-chinh{
+                position: absolute;
+                top: 5%;
+                left: 20%;
+                z-index: 30;
+                margin: auto;
+                background-color: rgba(0,0,0,0.5);
+                border-radius: 10px;
+                
+                .container{
+
+                    .navbar{
+                        width: 100%;
+                        margin: 0;
+                        padding: 15px 0;
+    
+                        a{
+                            color: white !important;
+    
+                            b{
+                                color: white;
+                            }
+                        }
+        
+                        img{
+                            width: 5%;
+                            margin-right: 30px;
+                        }
+        
+                    }
+                }
+            }
+          }
+    }
+
+
+    .nhom-cu-qua{
+        width: 100%;
+
+        .container{
+            width: 100%;
+            
+            .row{
+                margin-top: -250px;
+                height: 100%;
+                .col-md-3{
+                    height: 100%;
+
+                    .thong-tin{
+                        background-color: #16a667;
+                        padding: 20px;
+                        color: white;
+                        border: 2px solid white;
+                        height: 100%;
+
+                        img{
+                            max-width: 100%;
+                            border-radius: 50%;
+                            border: 2px solid white;
+
+                        }
+                        h4{
+                            text-align: center;
+                            margin: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .dich-vu{
+        width: 100%;
+
+        .container{
+
+            .row{
+
+                .col-sm-4{
+
+                    img{
+                        max-width: 100%;
+                    }
+                }
+            }
+
+            h4{
+                margin-top: 50px;
+                margin-bottom: 10px;
+                color: #16a667;
+            }
+        }
+    }
+
+    .san-pham-moi{
+        background-color: rgb(55, 53, 59);
+
+        .container{
+
+            .row{
+
+                .col-sm-3{
+
+                    .item{
+
+                        img{
+                            max-width: 100%;
+                            height: 100%;
+                        }
+
+                        h5{
+                            margin-top: 10px;
+                            color: white;
+                        }
+
+                        p{
+
+                            b{
+                                color: #d0ff00;
+                            }
+                        }
+                    }
+                }
+            }
+
+            h3{
+                color: white;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                padding-top: 30px;
+            }
+        }
+    }
+
+    .anh-thuc-te{
+
+        .container{
+
+            h3{
+                color: #16a667;
+                margin-top: 50px;
+            }
+            .wapper{
+
+                    .image{
+                        max-width: 100%;
+                        height: 200px;
+                        font-size: 0;
+                        float:left ;
+                        overflow: hidden;
+                        transition: 0.5s;
+                        border-radius:10px ;
+                        margin-top: 20px;
+                            img{
+                                width: 100%;
+                                height: 100%;
+                                object-position: center;
+                                object-fit: cover;
+                                transition: 0.5s;
+    
+                            }
+    
+                            img:hover{
+                                transform: scale(1.5);
+                            }
+                    }
+            }
+    
+            .lopphu{
+                position: fixed;
+                width: 100vw;
+                height: 100vh;
+                background: rgba(0,0,0,0.5);
+                top: 0;
+                left: 0;
+                opacity: 0;
+                pointer-events: none;
+                transform: scale(0.9);
+                transition: 0.5s;
+                    .img_phu{
+                        width: 1200px;
+                        height: 600px;
+                        margin: 170px auto;
+    
+                            img{
+                                width: 100%;
+                                height: 100%;
+                            }
+                    }
+    
+                    .btn-close{
+                        position: absolute;
+                        color: white;
+                        font-size: 30px;
+                        right: 20px;
+                        top: 20px;
+                        cursor: pointer;
+                        z-index: 999;
+                    }
+    
+                    .btn-right{
+                        position: absolute;
+                        color: white;
+                        font-size: 30px;
+                        right: 20px;
+                        top: 50%;
+                        cursor: pointer;
+                    }
+    
+                    .btn-left{
+                        position: absolute;
+                        color: white;
+                        font-size: 30px;
+                        left: 20px;
+                        top: 50%;
+                        cursor: pointer;
+                    }
+    
+                    
+            }
+    
+    
+            .them{
+                opacity: 1;
+                pointer-events: auto;
+                transform: scale(1);
+            }
+        }
+    }
+
+    .tin-tuc-moi-nhat{
+        .container{
+            
+            h3{
+                color: #16a667;
+                margin-top: 50px;
+            }
+
+            .row{
+
+                .col-sm-3{
+
+                    a{
+                        text-decoration: none;
+                        .item{
+                            margin-top: 20px;
+                            img{
+                                max-width: 100%;
+                                height: 200px;
+                            }
+    
+                            hr{
+                                width: 10%;
+                            }
+    
+                            h5{
+                                margin-top: 5px;
+                            }
+                            p
+                            {
+                                color: black;
+                            }
+    
+                            button{
+                                background-color: #16a667;
+                                color: white;
+                                padding: 5px 10px;
+                                border: 0;
+                                outline: none;
+                            }
+                          
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    footer{
+        width: 100%;
+        background-color: rgb(63, 69, 77);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 50px;
+        color: white;
+
+        .container{
+
+            .row{
+
+                .col-sm-3{
+
+                    .item{
+
+                        iframe{
+                            max-width: 100%;
+                            height: 200px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .ban-quyen{
+        background-color: #5b5b5b;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        color: white;
+    }
+    @media only screen and (max-width:700px) {
+        header{
+
+            .slide{
+                
+                .carousel-inner{
+
+                    .carousel-item{
+                        height: 70vh;
+                    }
+                }
+            }
+
+            #myBtn{
+
+                .navbar{
+
+                    img{
+                        width: 20%;
+                        margin-left: 30px;
+                    }
+                }
+            }
+
+            .menu-chinh{
+                position: absolute;
+                top: 0 !important;
+                left: 0 !important;
+                z-index: 30;
+                margin: auto;
+                background-color: rgba(0,0,0,0.5);
+                border-radius: 10px;
+                
+                .container{
+                    width: 100vw;
+                    .navbar{
+                        width: 100%;
+                        margin: 0;
+                        padding: 15px 0;
+    
+                        a{
+                            color: white !important;
+    
+                            b{
+                                color: white;
+                            }
+                        }
+        
+                        img{
+                            width: 20% !important;
+                            margin-right: 30px;
+                        }
+
+                        .navbar-toggler{
+                            color: white !important;
+
+                            .navbar-toggler-icon{
+                                color: white !important;
+                            }
+
+                        }
+        
+                    }
+                }
+            }
+
+            .carousel-inner{
+
+                .carousel-control-prev{
+                    display: none;
+                }
+                .carousel-control-next{
+                    display: none;
+                }
+            }
+        }
+
+        .nhom-cu-qua{
+
+            .container{
+
+                .row{
+
+                    margin-top: -350px !important;
+                }
+            }
+        }
+    }
+  }
